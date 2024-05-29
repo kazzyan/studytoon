@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttoon/home.dart';
+import 'package:fluttoon/assignment7/dairy.dart';
 
 void main() {
   runApp(const Fluttoon());
@@ -14,7 +14,7 @@ class Fluttoon extends StatelessWidget {
     return MaterialApp(
       title: 'Fluttoon',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: Dairy(),
     );
   }
 }

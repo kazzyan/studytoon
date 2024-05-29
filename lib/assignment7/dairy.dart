@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:fluttoon/schedule_card.dart';
+import 'package:fluttoon/assignment7/schedule_card.dart';
 
-class Home extends StatelessWidget {
-  Home({
+class Dairy extends StatelessWidget {
+  Dairy({
     super.key,
   });
 
