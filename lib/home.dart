@@ -1,7 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:fluttoon/schdule_card.dart';
+import 'package:fluttoon/schedule_card.dart';
 
 class Home extends StatelessWidget {
   Home({
@@ -143,7 +141,7 @@ class Home extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              ScheculeCard(
+              ScheduleCard(
                 backgroundColor: Colors.yellow,
                 fromHour: '11',
                 fromMin: '30',
@@ -155,7 +153,7 @@ class Home extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              ScheculeCard(
+              ScheduleCard(
                 backgroundColor: Colors.purple,
                 fromHour: '12',
                 fromMin: '35',
@@ -167,7 +165,7 @@ class Home extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              ScheculeCard(
+              ScheduleCard(
                 backgroundColor: Colors.lime,
                 fromHour: '15',
                 fromMin: '00',

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class ScheculeCard extends StatelessWidget {
+class ScheduleCard extends StatelessWidget {
   final String fromHour, fromMin, toHour, toMin, title;
   final Color backgroundColor;
 
   final List<String> cards;
 
-  const ScheculeCard({
+  const ScheduleCard({
     super.key,
     required this.fromHour,
     required this.fromMin,
