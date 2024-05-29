@@ -37,7 +37,11 @@ class Home extends StatelessWidget {
     'ME',
     'RICHARD',
     'CIRY',
-    '+4',
+    'ALEX',
+    'HELENA',
+    'DEN',
+    'NANA',
+    'MARK',
   ];
 
   final List<String> _card03 = [

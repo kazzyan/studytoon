@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class ScheculeCard extends StatelessWidget {
   final String fromHour, fromMin, toHour, toMin, title;
@@ -92,7 +91,7 @@ class ScheculeCard extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      for (var card in cards)
+                      for (var card in cards.take(3))
                         Padding(
                           padding: const EdgeInsets.only(right: 15),
                           child: Text(
@@ -104,6 +103,15 @@ class ScheculeCard extends StatelessWidget {
                             ),
                           ),
                         ),
+                      cards.length > 3
+                          ? Text(
+                              '+${cards.length - 3}',
+                              style: const TextStyle(
+                                color: Colors.black26,
+                                fontSize: 18,
+                              ),
+                            )
+                          : const SizedBox(),
                     ],
                   ),
                 ],
