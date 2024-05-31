@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttoon/assignment9/pomodoro.dart';
+import 'package:fluttoon/movieApp/views/movie_home.dart';
 
 void main() {
   runApp(const Fluttoon());
@@ -11,10 +11,10 @@ class Fluttoon extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Fluttoon',
       debugShowCheckedModeBanner: false,
-      home: Pomodoro(),
+      home: MovieHome(),
     );
   }
 }
